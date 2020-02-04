@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  dummyCardNumber="4242-4242-4242-4242";
+  
 }
