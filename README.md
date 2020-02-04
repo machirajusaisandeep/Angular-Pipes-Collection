@@ -5,4 +5,4 @@ A pipe takes in data as input and transforms it to a desired output. In this pag
 
 ### My Favourite Concept Pipes
 
-[View on StackBlitz ⚡️](https://stackblitz.com/edit/angular-a9nxqh)
+[View on StackBlitz ⚡️](https://stackblitz.com/edit/angular-pipes-collection)
