@@ -1,7 +1,7 @@
 <h1>Pipes</h1>
 <h3>1) Card Num Hide</h3>
 <div>
-This pipe is useful for hiding card number in UI 
+This pipe is useful for hiding card number in template 
 <br>
 For example : <i>{{dummyCardNumber}}</i>
 it can be hidden like : <span class="highLite">
@@ -10,10 +10,27 @@ it can be hidden like : <span class="highLite">
 </div>
 <h3>2) Greet</h3>
 <div>
-This pipe is useful for salutation based on time in UI 
+This pipe is useful for salutation based on time in template 
 (Date in hours is input)
 <br>
  <span class="highLite">
  {{today|date:'H'|greet}}
+</span>
+</div>
+<h3>3) Remove Underscore</h3>
+<div>
+This pipe is useful for removing underscores in template (snake case to normal)
+<br>
+ <span class="highLite">
+ {{removeUnderscore|removeUnderScore}}
+</span>
+</div>
+<h3>4) Start Case</h3>
+<div>
+This pipe is useful for captalizing first letter in each word in template
+(it also removes underscore or snake case) 
+<br>
+ <span class="highLite">
+ {{removeUnderscore|startCase}}
 </span>
 </div>

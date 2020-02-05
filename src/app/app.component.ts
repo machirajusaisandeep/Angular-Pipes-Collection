@@ -9,5 +9,6 @@ export class AppComponent  {
   name = 'Angular';
   dummyCardNumber="4242-4242-4242-4242";
   today: number = Date.now();
+  removeUnderscore="sandeep_machiraju";
   
 }
